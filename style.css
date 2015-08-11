@@ -10,12 +10,16 @@ Basic Styles
 }
 
 section{
-	margin-top:3rem;
-	margin-bottom:3rem;
+	margin-top:4rem;
+	margin-bottom:4rem;
 }
 
 .section-heading{
-	margin-bottom: 1.5rem;
+	margin-bottom: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#241f20;
+	border-bottom: 1px solid #c1bfb8;
 }
 
 
@@ -74,11 +78,52 @@ Colors
 Typography
 **********************************************************************/
 
+.typography .subheader{
+	margin-top: 3rem;
+}
 
+h1{
+	font-size:58px;
+}
+
+h2{
+	font-size:36px;
+}
+
+h3{
+	font-size:28px;
+}
+
+h4{
+	font-size:24px;
+}
+
+h5{
+	font-size:21px
+}
+
+h6{
+	font-style: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
 
 p{
 	font-family: Georgia, 'Times New Roman', serif;
 	font-weight: normal;
 	font-size: 18px;
+}
+
+blockquote{
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 24px;
+
+	/* Cancelling out Foundation Default Styles */
+	margin: 0;
+    padding: 0;
+    border-left: 0;
+    color:#666666;
 }
 
