@@ -6,6 +6,7 @@ Basic Styles
 	border-bottom:1px solid #e0e0e0;
 	padding:1.5rem;
 	margin-bottom:1.5rem;
+
 }
 
 section{
@@ -53,22 +54,18 @@ Colors
 }
 
 .medium-grey-2{
-	background:#241f20;
-}
-
-.light-grey-1{
 	background:#878681;
 }
 
-.light-grey-2{
+.light-grey-1{
 	background:#c1bfb8;
 }
 
-.light-grey-3{
+.light-grey-2{
 	background:#e5e3dc;
 }
 
-.light-grey-4{
+.light-grey-3{
 	background:#f7f7f7;
 }
 
